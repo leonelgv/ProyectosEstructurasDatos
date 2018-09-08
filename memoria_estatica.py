@@ -8,7 +8,7 @@ class memoria_estatica:
 
     def recorrerArreglo(self):
         for x in self.getAutos():
-            print self.getAutos().index(x)+1, x
+            print (self.getAutos().index(x)+1, x)
 
     def agregarelementoarray(self, elemento):
         self.__autos.append(elemento)
