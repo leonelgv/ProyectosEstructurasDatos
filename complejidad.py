@@ -5,10 +5,9 @@ Algoritmo para realizar la suma aritmetica del 1 al n
 """
 Aqui puedes cambiar el valor de n
 """
-n = 1000000
-suma = 0;
-suma2 = 0;
-
+n = 1000000000 
+suma = 00
+suma2 = 00
 
 """
 Algoritmo 1. Se utiliza la formula (n * (n + 1))/2 para realizar la suma
