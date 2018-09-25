@@ -10,20 +10,18 @@ while (n > 0):
     n = int(n/2)
     z.insert(0, r)
 
-def convertirDecimalABinario(w, residuo, lista):
-    print (w)
-    if (w <= 0):
+def convertirDecimalABinario(numeroAConvertir, residuo, lista):
+    if (numeroAConvertir <= 0):
         return lista
     else:
-        print(w)
-        residuo = w % 2
-        w = (int(w / 2))
+        residuo = numeroAConvertir % 2
+        w = (int(numeroAConvertir / 2))
         lista.insert(0, residuo)
-        return convertirDecimalABinario(w, 0, lista)
+        return convertirDecimalABinario(w, residuo, lista)
 
 resultado = []
 resultado2 = []
-numeroAConvertir = 4999
+numeroAConvertir = 2
 
 resultado = convertirDecimalABinario(numeroAConvertir, 0, resultado2)
 
