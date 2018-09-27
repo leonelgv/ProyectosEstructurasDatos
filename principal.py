@@ -1,6 +1,7 @@
 __author__ = 'Leonel Gonzalez'
 
 from esfera import *
+from DecimalBinario import *
 from memoria_estatica import *
 Esferita = Esfera(56)
 """
@@ -15,8 +16,6 @@ print 'Agregar elemento'
 elemento = raw_input()
 arreglo.agregarelementoarray(elemento)
 arreglo.recorrerArreglo()
-
-"""
 promedio = 9.67
 otralista = []
 supermercado = ['fruta','agua', 'refresco', 'pan', 'pastel']
@@ -35,3 +34,9 @@ lista2 = memDinamica(precios)
 lista2.imprimirLista()
 lista2.agregarelementoarray(89)
 lista2.imprimirLista()
+"""
+
+numero = convertidor()
+
+print (numero.decimalABinario(10))
+print (numero.decimalAOctal(8))
